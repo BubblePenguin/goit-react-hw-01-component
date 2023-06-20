@@ -1,0 +1,11 @@
+.transaction_history {
+  margin: 50px auto;
+  width: 50vw;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+tr {
+  border: 1px solid black;
+}
