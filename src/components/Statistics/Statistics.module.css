@@ -1,0 +1,31 @@
+.statistics {
+  margin: 10px auto;
+  width: 500px;
+  text-align: center;
+
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.title {
+}
+.stat_list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  /* align-self: center; */
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 50px;
+  margin: 0;
+}
+.item {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+.label {
+}
+.percentage {
+}
