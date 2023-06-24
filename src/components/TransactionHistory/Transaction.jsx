@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 export const Transaction = ({ id, type, amount, currency }) => {
   return (
     <tr key={id}>
@@ -6,4 +7,11 @@ export const Transaction = ({ id, type, amount, currency }) => {
       <td>{currency}</td>
     </tr>
   );
+};
+
+Transaction.propTypes = {
+  id: PropTypes.string,
+  type: PropTypes.string,
+  amount: PropTypes.string,
+  currency: PropTypes.string,
 };
